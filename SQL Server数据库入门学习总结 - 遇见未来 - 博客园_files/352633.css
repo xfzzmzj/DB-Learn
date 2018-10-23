@@ -1,0 +1,123 @@
+/*博客标题*/
+.headermaintitle {
+    font-size:30px;
+    padding:30px 21px 0px 1px;
+    clear: both;
+}
+#nav_rss{
+    display: none;
+}
+#nav_contact{
+    display: none;
+}
+#nav_newpost{
+    display: none;
+}
+#nav_myhome{
+    display: none;
+}
+#nav_sitehome{
+    display: none;
+}
+#nav_ing{
+    display: none;
+}
+#nav_admin{
+    display: none;
+}
+#nav_p{
+    display: none;
+}
+.postTitle{
+    font-size: 1.9em;
+}
+.newsItem .catListTitle {
+    font-size: 2.35em;
+    margin-top: 13px;
+    margin-bottom: 10.5px;
+    border-left: 10px solid #99CC33;
+    padding: 6px 0 6px 20px;
+    background-color: #f7f7f7;
+}
+.day {    /*每日文章列表*/
+    min-height: 10px;
+    _height: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    position: relative;
+}
+/*日期标题，有的博客按照日期进行排列*/
+.dayTitle {   
+    display: none;
+    border: 1px solid #21759b;
+    background: azure;
+    border-radius: 50%;
+    font-size: 14px;
+    height: 65px;
+    line-height: 1.5;
+    margin: 15px;
+    text-align: center;
+    width: 63px;
+    margin-left: -100px;
+    clear: both;
+    position: absolute;
+    top: -15px;
+}
+    .dayTitle a { /*日期标题的文字格式*/
+        display: inline-block;
+        color: #21759b;
+        margin-top: 15px;
+        width: 60px;
+    }
+    /*主标题格式*/
+    #blogTitle h1 {
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 1.8em;/*原始 1.6em*/
+        margin-top: 10px;/*原始 15px */
+    }
+
+        #blogTitle h1 a {
+            color: #515151;
+        }
+            /*超链接颜色*/
+            #blogTitle h1 a:hover {
+                color: #21759b;
+            }
+    /*次标题格式*/
+    #blogTitle h2 {
+        font-weight: normal;
+        font-size: 17px;/*原始 16px ；font-size: 1.0rem;*/      
+        line-height: 1.8;
+        color: #757575;
+        float: left;        
+    }
+    .postTitle a:link, .postTitle a:visited, .postTitle a:active {
+        color: #21759b;
+        transition: all 0.4s linear 0s;
+    }
+
+    .postTitle a:hover {
+        margin-left: 30px;
+        color: #0f3647;
+        text-decoration: none;
+    }
+    
+/*文章内容（简介内容）*/
+.postCon {
+    float: right;
+    line-height: 1.5em;
+    width: 100%;
+    clear: both;
+    padding: 10px 0;
+}
+
+.day .postTitle a {
+    padding-left: 10px;
+}
+#main{min-width:1100px;}
+#mainContent{width:800px;}
+h1{background-color:#008B00;padding-left:5px;}
+.myh2{background-color:#00CED1;font-size: 19px;}
+/*穿插的图片，通过这里其实还可以换图片*/
+.postSeparator{height: 45px;}
